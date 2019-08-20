@@ -4,7 +4,7 @@
 #include <numeric>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
-#include <bits/stdc++.h> 
+#include <algorithm>
 
 #include "camFusion.hpp"
 #include "dataStructures.h"
@@ -99,13 +99,14 @@ void show3DObjects(std::vector<BoundingBox> &boundingBoxes, cv::Size worldSize, 
 
         // plot Lidar points into top view image
         int top=1e8, left=1e8, bottom=0.0, right=0.0; 
-        float xwmin=1e8, ywmin=1e8, ywmax=-1e8;
+        float xwmin=1e8, xwmax = -1e8,ywmin=1e8, ywmax=-1e8;
         for (auto it2 = it1->lidarPoints.begin(); it2 != it1->lidarPoints.end(); ++it2)
         {
             // world coordinates
             float xw = (*it2).x; // world position in m with x facing forward from sensor
             float yw = (*it2).y; // world position in m with y facing left from sensor
             xwmin = xwmin<xw ? xwmin : xw;
+            xwmax = xwmax>xw ? xwmax : xw;
             ywmin = ywmin<yw ? ywmin : yw;
             ywmax = ywmax>yw ? ywmax : yw;
 
@@ -121,6 +122,7 @@ void show3DObjects(std::vector<BoundingBox> &boundingBoxes, cv::Size worldSize, 
 
             // draw individual point
             cv::circle(topviewImg, cv::Point(x, y), 4, currColor, -1);
+            //std::cout << cv::Point(x,y) << std::endl;
         }
 
         // draw enclosing rectangle
@@ -130,7 +132,7 @@ void show3DObjects(std::vector<BoundingBox> &boundingBoxes, cv::Size worldSize, 
         char str1[200], str2[200];
         sprintf(str1, "id=%d, #pts=%d", it1->boxID, (int)it1->lidarPoints.size());
         putText(topviewImg, str1, cv::Point2f(left-250, bottom+50), cv::FONT_ITALIC, 2, currColor);
-        sprintf(str2, "xmin=%2.2f m, yw=%2.2f m", xwmin, ywmax-ywmin);
+        sprintf(str2, "xmin=%2.2f m, xh=%2.2f m", xwmin, xwmax -  xwmin);
         putText(topviewImg, str2, cv::Point2f(left-250, bottom+125), cv::FONT_ITALIC, 2, currColor);  
     }
 
@@ -201,7 +203,7 @@ void computeTTCCamera(std::vector<cv::KeyPoint> &kptsPrev, std::vector<cv::KeyPo
                 double dcurr = distance(currPoint.pt, kptsCurr[diter->second].pt);
                // std::cout << diter->first << "->" << diter->second << " " << dprev << " " << dcurr << std::endl;
                 if(dprev != 0 && dcurr != 0){
-                    double ratio = dcurr / dprev;
+                    double ratio = sqrt(dcurr / dprev);
                     if(ratio != 1.0){
                         ratios.push_back( ratio);
                     }
@@ -210,38 +212,35 @@ void computeTTCCamera(std::vector<cv::KeyPoint> &kptsPrev, std::vector<cv::KeyPo
         }
     }
     std::sort(ratios.begin(),ratios.end());
-
     double medianRatio = ratios[ratios.size() / 2]; 
     TTC = -1.0 / ( (1 - medianRatio)*frameRate );
-    std::cout << "TTC Camera " << TTC << " seconds, median " << medianRatio <<" " << frameRate << std::endl;
-
+    //std::cout << "TTC Camera " << TTC << " seconds, median " << medianRatio <<" " << frameRate << std::endl;
+    std::cout << TTC << std::endl;
 }
 
-LidarPoint getIndicativePoint(const std::vector<LidarPoint>& points){
-    LidarPoint mean;
-    mean.x = 0;
-    mean.y = 0;
-    mean.z = 0;
-
-    for(int i = 0; i < points.size(); i++){
-        mean.x += points[i].x;
-        mean.y += points[i].y;
-        mean.z += points[i].z;
+LidarPoint getIndicativePoint(std::vector<LidarPoint>& points){
+    std::sort(points.begin(),points.end(),[]( const LidarPoint& lhs, const LidarPoint& rhs ){
+        return lhs.x < rhs.x;
+    });
+    double meanX =0;
+    for(int i =0; i < points.size(); i++){
+        meanX+=points[i].x;
     }
-    mean.x /= points.size();
-    mean.y /= points.size();
-    mean.z /= points.size();
+    meanX/=points.size();
 
-    double minD     = 2^32;
-    int    minIndex = 0;
+    double stdDev = 0;
     for(int i = 0; i < points.size(); i++){
-        double d = abs(points[i].x - mean.x);
-        if(d < minD){
-            minD = d;
-            minIndex = i;
+        stdDev+=((points[i].x - meanX)*(points[i].x - meanX));
+    }
+    stdDev /= (points.size() - 1);
+    stdDev = sqrt(stdDev);
+
+    for(int i = 0; i < points.size(); i++){
+        if( abs(points[i].x - meanX) < stdDev/1.3){
+            return points[i];
         }
     }
-    return points[minIndex];
+    return points[0];
 }
 
 
@@ -253,7 +252,7 @@ void computeTTCLidar(std::vector<LidarPoint> &lidarPointsPrev,
 
     double velocity = (prev.x - curr.x) * frameRate;
     TTC = prev.x / velocity; 
-    std::cout << "TTC Lidar " << TTC << " seconds " << " Velocity " << velocity << " " << prev.x << " " << curr.x << "  " << frameRate << std::endl;
+    //std::cout << "TTC Lidar " << TTC << " seconds " << " Velocity " << velocity << " " << prev.x << " " << curr.x << "  " << frameRate << std::endl;
     
 }
 

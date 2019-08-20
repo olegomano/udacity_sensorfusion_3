@@ -170,6 +170,8 @@ void detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std:
     }else if(detectorType == "SIFT"){
         auto detector = cv::xfeatures2d::SIFT::create();
         detector.get()->detect(img,keypoints);      
+    }else{
+        assert(false);
     }
 
     if (bVis){

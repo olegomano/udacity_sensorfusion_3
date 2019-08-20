@@ -28,25 +28,25 @@ The CXX compiler identification is Clang, found in "/home/oleg/Documents/SensorF
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_309de/fast 
-/usr/bin/make -f CMakeFiles/cmTC_309de.dir/build.make CMakeFiles/cmTC_309de.dir/build
+Run Build Command(s):/usr/bin/make cmTC_b9d26/fast 
+/usr/bin/make -f CMakeFiles/cmTC_b9d26.dir/build.make CMakeFiles/cmTC_b9d26.dir/build
 make[1]: Entering directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_309de.dir/testCCompiler.c.o
-/bin/clang-8    -o CMakeFiles/cmTC_309de.dir/testCCompiler.c.o   -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_309de
-/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_309de.dir/link.txt --verbose=1
-/bin/clang-8      -rdynamic CMakeFiles/cmTC_309de.dir/testCCompiler.c.o  -o cmTC_309de 
+Building C object CMakeFiles/cmTC_b9d26.dir/testCCompiler.c.o
+/bin/clang-8    -o CMakeFiles/cmTC_b9d26.dir/testCCompiler.c.o   -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_b9d26
+/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9d26.dir/link.txt --verbose=1
+/bin/clang-8      -rdynamic CMakeFiles/cmTC_b9d26.dir/testCCompiler.c.o  -o cmTC_b9d26 
 make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_46cfc/fast 
-/usr/bin/make -f CMakeFiles/cmTC_46cfc.dir/build.make CMakeFiles/cmTC_46cfc.dir/build
+Run Build Command(s):/usr/bin/make cmTC_66034/fast 
+/usr/bin/make -f CMakeFiles/cmTC_66034.dir/build.make CMakeFiles/cmTC_66034.dir/build
 make[1]: Entering directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_46cfc.dir/CMakeCCompilerABI.c.o
-/bin/clang-8   -v -o CMakeFiles/cmTC_46cfc.dir/CMakeCCompilerABI.c.o   -c /home/oleg/cmake-3.14.5-Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_66034.dir/CMakeCCompilerABI.c.o
+/bin/clang-8   -v -o CMakeFiles/cmTC_66034.dir/CMakeCCompilerABI.c.o   -c /home/oleg/cmake-3.14.5-Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c
 clang version 8.0.0-svn346579-1~exp1+0~20181110060506.1960~1.gbp6afd8e (trunk)
 Target: x86_64-unknown-linux-gnu
 Thread model: posix
@@ -68,7 +68,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
 Selected GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/8
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/lib/llvm-8/bin/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_46cfc.dir/CMakeCCompilerABI.c.gcno -resource-dir /usr/lib/llvm-8/lib/clang/8.0.0 -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-8/lib/clang/8.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_46cfc.dir/CMakeCCompilerABI.c.o -x c /home/oleg/cmake-3.14.5-Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c -faddrsig
+ "/usr/lib/llvm-8/bin/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_66034.dir/CMakeCCompilerABI.c.gcno -resource-dir /usr/lib/llvm-8/lib/clang/8.0.0 -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-8/lib/clang/8.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_66034.dir/CMakeCCompilerABI.c.o -x c /home/oleg/cmake-3.14.5-Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c -faddrsig
 clang -cc1 version 8.0.0 based upon LLVM 8.0.0 default target x86_64-unknown-linux-gnu
 ignoring nonexistent directory "/include"
 #include "..." search starts here:
@@ -78,9 +78,9 @@ ignoring nonexistent directory "/include"
  /usr/include/x86_64-linux-gnu
  /usr/include
 End of search list.
-Linking C executable cmTC_46cfc
-/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46cfc.dir/link.txt --verbose=1
-/bin/clang-8     -v -rdynamic CMakeFiles/cmTC_46cfc.dir/CMakeCCompilerABI.c.o  -o cmTC_46cfc 
+Linking C executable cmTC_66034
+/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66034.dir/link.txt --verbose=1
+/bin/clang-8     -v -rdynamic CMakeFiles/cmTC_66034.dir/CMakeCCompilerABI.c.o  -o cmTC_66034 
 clang version 8.0.0-svn346579-1~exp1+0~20181110060506.1960~1.gbp6afd8e (trunk)
 Target: x86_64-unknown-linux-gnu
 Thread model: posix
@@ -102,7 +102,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
 Selected GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/8
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/bin/ld" -export-dynamic --hash-style=both --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_46cfc /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/8 -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../.. -L/usr/lib/llvm-8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_46cfc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /bin/../lib/gcc/x86_64-linux-gnu/8/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+ "/bin/ld" -export-dynamic --hash-style=both --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_66034 /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/8 -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../.. -L/usr/lib/llvm-8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_66034.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /bin/../lib/gcc/x86_64-linux-gnu/8/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
 
 
@@ -125,11 +125,11 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_46cfc/fast ]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_46cfc.dir/build.make CMakeFiles/cmTC_46cfc.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_66034/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_66034.dir/build.make CMakeFiles/cmTC_66034.dir/build]
   ignore line: [make[1]: Entering directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_46cfc.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/bin/clang-8   -v -o CMakeFiles/cmTC_46cfc.dir/CMakeCCompilerABI.c.o   -c /home/oleg/cmake-3.14.5-Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_66034.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/bin/clang-8   -v -o CMakeFiles/cmTC_66034.dir/CMakeCCompilerABI.c.o   -c /home/oleg/cmake-3.14.5-Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
   ignore line: [clang version 8.0.0-svn346579-1~exp1+0~20181110060506.1960~1.gbp6afd8e (trunk)]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
@@ -153,7 +153,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  ignore line: [ "/usr/lib/llvm-8/bin/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_46cfc.dir/CMakeCCompilerABI.c.gcno -resource-dir /usr/lib/llvm-8/lib/clang/8.0.0 -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-8/lib/clang/8.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_46cfc.dir/CMakeCCompilerABI.c.o -x c /home/oleg/cmake-3.14.5-Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c -faddrsig]
+  ignore line: [ "/usr/lib/llvm-8/bin/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_66034.dir/CMakeCCompilerABI.c.gcno -resource-dir /usr/lib/llvm-8/lib/clang/8.0.0 -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-8/lib/clang/8.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_66034.dir/CMakeCCompilerABI.c.o -x c /home/oleg/cmake-3.14.5-Linux-x86_64/share/cmake-3.14/Modules/CMakeCCompilerABI.c -faddrsig]
   ignore line: [clang -cc1 version 8.0.0 based upon LLVM 8.0.0 default target x86_64-unknown-linux-gnu]
   ignore line: [ignoring nonexistent directory "/include"]
   ignore line: [#include "..." search starts here:]
@@ -163,9 +163,9 @@ Parsed C implicit link information from above output:
   ignore line: [ /usr/include/x86_64-linux-gnu]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [Linking C executable cmTC_46cfc]
-  ignore line: [/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46cfc.dir/link.txt --verbose=1]
-  ignore line: [/bin/clang-8     -v -rdynamic CMakeFiles/cmTC_46cfc.dir/CMakeCCompilerABI.c.o  -o cmTC_46cfc ]
+  ignore line: [Linking C executable cmTC_66034]
+  ignore line: [/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66034.dir/link.txt --verbose=1]
+  ignore line: [/bin/clang-8     -v -rdynamic CMakeFiles/cmTC_66034.dir/CMakeCCompilerABI.c.o  -o cmTC_66034 ]
   ignore line: [clang version 8.0.0-svn346579-1~exp1+0~20181110060506.1960~1.gbp6afd8e (trunk)]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
@@ -189,7 +189,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/bin/ld" -export-dynamic --hash-style=both --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_46cfc /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/8 -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../.. -L/usr/lib/llvm-8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_46cfc.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /bin/../lib/gcc/x86_64-linux-gnu/8/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/bin/ld" -export-dynamic --hash-style=both --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_66034 /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/8 -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../.. -L/usr/lib/llvm-8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_66034.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /bin/../lib/gcc/x86_64-linux-gnu/8/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/bin/ld] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [--hash-style=both] ==> ignore
@@ -200,7 +200,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_46cfc] ==> ignore
+    arg [cmTC_66034] ==> ignore
     arg [/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/bin/../lib/gcc/x86_64-linux-gnu/8/crtbegin.o] ==> ignore
@@ -216,7 +216,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/llvm-8/bin/../lib] ==> dir [/usr/lib/llvm-8/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_46cfc.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_66034.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -250,14 +250,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_99444/fast 
-/usr/bin/make -f CMakeFiles/cmTC_99444.dir/build.make CMakeFiles/cmTC_99444.dir/build
+Run Build Command(s):/usr/bin/make cmTC_f53fc/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f53fc.dir/build.make CMakeFiles/cmTC_f53fc.dir/build
 make[1]: Entering directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_99444.dir/feature_tests.c.o
-/bin/clang-8   -std=c11 -o CMakeFiles/cmTC_99444.dir/feature_tests.c.o   -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_99444
-/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99444.dir/link.txt --verbose=1
-/bin/clang-8      -rdynamic CMakeFiles/cmTC_99444.dir/feature_tests.c.o  -o cmTC_99444 
+Building C object CMakeFiles/cmTC_f53fc.dir/feature_tests.c.o
+/bin/clang-8   -std=c11 -o CMakeFiles/cmTC_f53fc.dir/feature_tests.c.o   -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f53fc
+/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f53fc.dir/link.txt --verbose=1
+/bin/clang-8      -rdynamic CMakeFiles/cmTC_f53fc.dir/feature_tests.c.o  -o cmTC_f53fc 
 make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
 
 
@@ -270,14 +270,14 @@ make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tra
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_da5e4/fast 
-/usr/bin/make -f CMakeFiles/cmTC_da5e4.dir/build.make CMakeFiles/cmTC_da5e4.dir/build
+Run Build Command(s):/usr/bin/make cmTC_decb7/fast 
+/usr/bin/make -f CMakeFiles/cmTC_decb7.dir/build.make CMakeFiles/cmTC_decb7.dir/build
 make[1]: Entering directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_da5e4.dir/feature_tests.c.o
-/bin/clang-8   -std=c99 -o CMakeFiles/cmTC_da5e4.dir/feature_tests.c.o   -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_da5e4
-/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da5e4.dir/link.txt --verbose=1
-/bin/clang-8      -rdynamic CMakeFiles/cmTC_da5e4.dir/feature_tests.c.o  -o cmTC_da5e4 
+Building C object CMakeFiles/cmTC_decb7.dir/feature_tests.c.o
+/bin/clang-8   -std=c99 -o CMakeFiles/cmTC_decb7.dir/feature_tests.c.o   -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_decb7
+/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_decb7.dir/link.txt --verbose=1
+/bin/clang-8      -rdynamic CMakeFiles/cmTC_decb7.dir/feature_tests.c.o  -o cmTC_decb7 
 make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
 
 
@@ -290,14 +290,14 @@ make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tra
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_83159/fast 
-/usr/bin/make -f CMakeFiles/cmTC_83159.dir/build.make CMakeFiles/cmTC_83159.dir/build
+Run Build Command(s):/usr/bin/make cmTC_2a821/fast 
+/usr/bin/make -f CMakeFiles/cmTC_2a821.dir/build.make CMakeFiles/cmTC_2a821.dir/build
 make[1]: Entering directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_83159.dir/feature_tests.c.o
-/bin/clang-8   -std=c90 -o CMakeFiles/cmTC_83159.dir/feature_tests.c.o   -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_83159
-/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83159.dir/link.txt --verbose=1
-/bin/clang-8      -rdynamic CMakeFiles/cmTC_83159.dir/feature_tests.c.o  -o cmTC_83159 
+Building C object CMakeFiles/cmTC_2a821.dir/feature_tests.c.o
+/bin/clang-8   -std=c90 -o CMakeFiles/cmTC_2a821.dir/feature_tests.c.o   -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2a821
+/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a821.dir/link.txt --verbose=1
+/bin/clang-8      -rdynamic CMakeFiles/cmTC_2a821.dir/feature_tests.c.o  -o cmTC_2a821 
 make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
 
 
@@ -308,25 +308,25 @@ make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tra
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_c1beb/fast 
-/usr/bin/make -f CMakeFiles/cmTC_c1beb.dir/build.make CMakeFiles/cmTC_c1beb.dir/build
+Run Build Command(s):/usr/bin/make cmTC_4fb4f/fast 
+/usr/bin/make -f CMakeFiles/cmTC_4fb4f.dir/build.make CMakeFiles/cmTC_4fb4f.dir/build
 make[1]: Entering directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c1beb.dir/testCXXCompiler.cxx.o
-/bin/clang++-8     -o CMakeFiles/cmTC_c1beb.dir/testCXXCompiler.cxx.o -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_c1beb
-/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1beb.dir/link.txt --verbose=1
-/bin/clang++-8       -rdynamic CMakeFiles/cmTC_c1beb.dir/testCXXCompiler.cxx.o  -o cmTC_c1beb 
+Building CXX object CMakeFiles/cmTC_4fb4f.dir/testCXXCompiler.cxx.o
+/bin/clang++-8     -o CMakeFiles/cmTC_4fb4f.dir/testCXXCompiler.cxx.o -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_4fb4f
+/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fb4f.dir/link.txt --verbose=1
+/bin/clang++-8       -rdynamic CMakeFiles/cmTC_4fb4f.dir/testCXXCompiler.cxx.o  -o cmTC_4fb4f 
 make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_1b624/fast 
-/usr/bin/make -f CMakeFiles/cmTC_1b624.dir/build.make CMakeFiles/cmTC_1b624.dir/build
+Run Build Command(s):/usr/bin/make cmTC_06b6b/fast 
+/usr/bin/make -f CMakeFiles/cmTC_06b6b.dir/build.make CMakeFiles/cmTC_06b6b.dir/build
 make[1]: Entering directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1b624.dir/CMakeCXXCompilerABI.cpp.o
-/bin/clang++-8    -v -o CMakeFiles/cmTC_1b624.dir/CMakeCXXCompilerABI.cpp.o -c /home/oleg/cmake-3.14.5-Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_06b6b.dir/CMakeCXXCompilerABI.cpp.o
+/bin/clang++-8    -v -o CMakeFiles/cmTC_06b6b.dir/CMakeCXXCompilerABI.cpp.o -c /home/oleg/cmake-3.14.5-Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
 clang version 8.0.0-svn346579-1~exp1+0~20181110060506.1960~1.gbp6afd8e (trunk)
 Target: x86_64-unknown-linux-gnu
 Thread model: posix
@@ -348,7 +348,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
 Selected GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/8
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/lib/llvm-8/bin/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_1b624.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /usr/lib/llvm-8/lib/clang/8.0.0 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward -internal-isystem /usr/include/clang/8.0.0/include/ -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-8/lib/clang/8.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_1b624.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/oleg/cmake-3.14.5-Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -faddrsig
+ "/usr/lib/llvm-8/bin/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_06b6b.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /usr/lib/llvm-8/lib/clang/8.0.0 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward -internal-isystem /usr/include/clang/8.0.0/include/ -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-8/lib/clang/8.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_06b6b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/oleg/cmake-3.14.5-Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -faddrsig
 clang -cc1 version 8.0.0 based upon LLVM 8.0.0 default target x86_64-unknown-linux-gnu
 ignoring nonexistent directory "/include"
 ignoring duplicate directory "/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"
@@ -363,9 +363,9 @@ ignoring duplicate directory "/usr/include/clang/8.0.0/include"
  /usr/include/x86_64-linux-gnu
  /usr/include
 End of search list.
-Linking CXX executable cmTC_1b624
-/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b624.dir/link.txt --verbose=1
-/bin/clang++-8      -v -rdynamic CMakeFiles/cmTC_1b624.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1b624 
+Linking CXX executable cmTC_06b6b
+/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06b6b.dir/link.txt --verbose=1
+/bin/clang++-8      -v -rdynamic CMakeFiles/cmTC_06b6b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_06b6b 
 clang version 8.0.0-svn346579-1~exp1+0~20181110060506.1960~1.gbp6afd8e (trunk)
 Target: x86_64-unknown-linux-gnu
 Thread model: posix
@@ -387,7 +387,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
 Selected GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/8
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/bin/ld" -export-dynamic --hash-style=both --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1b624 /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/8 -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../.. -L/usr/lib/llvm-8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_1b624.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /bin/../lib/gcc/x86_64-linux-gnu/8/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+ "/bin/ld" -export-dynamic --hash-style=both --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_06b6b /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/8 -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../.. -L/usr/lib/llvm-8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_06b6b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /bin/../lib/gcc/x86_64-linux-gnu/8/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
 
 
@@ -416,11 +416,11 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_1b624/fast ]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_1b624.dir/build.make CMakeFiles/cmTC_1b624.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_06b6b/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_06b6b.dir/build.make CMakeFiles/cmTC_06b6b.dir/build]
   ignore line: [make[1]: Entering directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_1b624.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/bin/clang++-8    -v -o CMakeFiles/cmTC_1b624.dir/CMakeCXXCompilerABI.cpp.o -c /home/oleg/cmake-3.14.5-Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_06b6b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/bin/clang++-8    -v -o CMakeFiles/cmTC_06b6b.dir/CMakeCXXCompilerABI.cpp.o -c /home/oleg/cmake-3.14.5-Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [clang version 8.0.0-svn346579-1~exp1+0~20181110060506.1960~1.gbp6afd8e (trunk)]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
@@ -444,7 +444,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  ignore line: [ "/usr/lib/llvm-8/bin/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_1b624.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /usr/lib/llvm-8/lib/clang/8.0.0 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward -internal-isystem /usr/include/clang/8.0.0/include/ -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-8/lib/clang/8.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_1b624.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/oleg/cmake-3.14.5-Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -faddrsig]
+  ignore line: [ "/usr/lib/llvm-8/bin/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_06b6b.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /usr/lib/llvm-8/lib/clang/8.0.0 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/c++/8/backward -internal-isystem /usr/include/clang/8.0.0/include/ -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-8/lib/clang/8.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_06b6b.dir/CMakeCXXCompilerABI.cpp.o -x c++ /home/oleg/cmake-3.14.5-Linux-x86_64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -faddrsig]
   ignore line: [clang -cc1 version 8.0.0 based upon LLVM 8.0.0 default target x86_64-unknown-linux-gnu]
   ignore line: [ignoring nonexistent directory "/include"]
   ignore line: [ignoring duplicate directory "/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../include/x86_64-linux-gnu/c++/8"]
@@ -459,9 +459,9 @@ Parsed CXX implicit link information from above output:
   ignore line: [ /usr/include/x86_64-linux-gnu]
   ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [Linking CXX executable cmTC_1b624]
-  ignore line: [/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b624.dir/link.txt --verbose=1]
-  ignore line: [/bin/clang++-8      -v -rdynamic CMakeFiles/cmTC_1b624.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1b624 ]
+  ignore line: [Linking CXX executable cmTC_06b6b]
+  ignore line: [/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06b6b.dir/link.txt --verbose=1]
+  ignore line: [/bin/clang++-8      -v -rdynamic CMakeFiles/cmTC_06b6b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_06b6b ]
   ignore line: [clang version 8.0.0-svn346579-1~exp1+0~20181110060506.1960~1.gbp6afd8e (trunk)]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
@@ -485,7 +485,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/bin/ld" -export-dynamic --hash-style=both --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1b624 /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/8 -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../.. -L/usr/lib/llvm-8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_1b624.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /bin/../lib/gcc/x86_64-linux-gnu/8/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/bin/ld" -export-dynamic --hash-style=both --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_06b6b /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/8 -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/8/../../.. -L/usr/lib/llvm-8/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_06b6b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /bin/../lib/gcc/x86_64-linux-gnu/8/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/bin/ld] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [--hash-style=both] ==> ignore
@@ -496,7 +496,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1b624] ==> ignore
+    arg [cmTC_06b6b] ==> ignore
     arg [/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/bin/../lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/bin/../lib/gcc/x86_64-linux-gnu/8/crtbegin.o] ==> ignore
@@ -512,7 +512,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/llvm-8/bin/../lib] ==> dir [/usr/lib/llvm-8/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_1b624.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_06b6b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -544,14 +544,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
 Change Dir: /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d1846/fast 
-/usr/bin/make -f CMakeFiles/cmTC_d1846.dir/build.make CMakeFiles/cmTC_d1846.dir/build
+Run Build Command(s):/usr/bin/make cmTC_1be58/fast 
+/usr/bin/make -f CMakeFiles/cmTC_1be58.dir/build.make CMakeFiles/cmTC_1be58.dir/build
 make[1]: Entering directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d1846.dir/feature_tests.cxx.o
-/bin/clang++-8    -std=c++2a -o CMakeFiles/cmTC_d1846.dir/feature_tests.cxx.o -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d1846
-/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1846.dir/link.txt --verbose=1
-/bin/clang++-8       -rdynamic CMakeFiles/cmTC_d1846.dir/feature_tests.cxx.o  -o cmTC_d1846 
+Building CXX object CMakeFiles/cmTC_1be58.dir/feature_tests.cxx.o
+/bin/clang++-8    -std=c++2a -o CMakeFiles/cmTC_1be58.dir/feature_tests.cxx.o -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1be58
+/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1be58.dir/link.txt --verbose=1
+/bin/clang++-8       -rdynamic CMakeFiles/cmTC_1be58.dir/feature_tests.cxx.o  -o cmTC_1be58 
 make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
 
 
@@ -617,14 +617,14 @@ make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tra
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
 Change Dir: /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_bfe1a/fast 
-/usr/bin/make -f CMakeFiles/cmTC_bfe1a.dir/build.make CMakeFiles/cmTC_bfe1a.dir/build
+Run Build Command(s):/usr/bin/make cmTC_a78c2/fast 
+/usr/bin/make -f CMakeFiles/cmTC_a78c2.dir/build.make CMakeFiles/cmTC_a78c2.dir/build
 make[1]: Entering directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_bfe1a.dir/feature_tests.cxx.o
-/bin/clang++-8    -std=c++17 -o CMakeFiles/cmTC_bfe1a.dir/feature_tests.cxx.o -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_bfe1a
-/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfe1a.dir/link.txt --verbose=1
-/bin/clang++-8       -rdynamic CMakeFiles/cmTC_bfe1a.dir/feature_tests.cxx.o  -o cmTC_bfe1a 
+Building CXX object CMakeFiles/cmTC_a78c2.dir/feature_tests.cxx.o
+/bin/clang++-8    -std=c++17 -o CMakeFiles/cmTC_a78c2.dir/feature_tests.cxx.o -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a78c2
+/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a78c2.dir/link.txt --verbose=1
+/bin/clang++-8       -rdynamic CMakeFiles/cmTC_a78c2.dir/feature_tests.cxx.o  -o cmTC_a78c2 
 make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
 
 
@@ -690,14 +690,14 @@ make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tra
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_40365/fast 
-/usr/bin/make -f CMakeFiles/cmTC_40365.dir/build.make CMakeFiles/cmTC_40365.dir/build
+Run Build Command(s):/usr/bin/make cmTC_18dcf/fast 
+/usr/bin/make -f CMakeFiles/cmTC_18dcf.dir/build.make CMakeFiles/cmTC_18dcf.dir/build
 make[1]: Entering directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_40365.dir/feature_tests.cxx.o
-/bin/clang++-8    -std=c++14 -o CMakeFiles/cmTC_40365.dir/feature_tests.cxx.o -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_40365
-/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40365.dir/link.txt --verbose=1
-/bin/clang++-8       -rdynamic CMakeFiles/cmTC_40365.dir/feature_tests.cxx.o  -o cmTC_40365 
+Building CXX object CMakeFiles/cmTC_18dcf.dir/feature_tests.cxx.o
+/bin/clang++-8    -std=c++14 -o CMakeFiles/cmTC_18dcf.dir/feature_tests.cxx.o -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_18dcf
+/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18dcf.dir/link.txt --verbose=1
+/bin/clang++-8       -rdynamic CMakeFiles/cmTC_18dcf.dir/feature_tests.cxx.o  -o cmTC_18dcf 
 make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
 
 
@@ -763,14 +763,14 @@ make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tra
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_1d3c6/fast 
-/usr/bin/make -f CMakeFiles/cmTC_1d3c6.dir/build.make CMakeFiles/cmTC_1d3c6.dir/build
+Run Build Command(s):/usr/bin/make cmTC_cee62/fast 
+/usr/bin/make -f CMakeFiles/cmTC_cee62.dir/build.make CMakeFiles/cmTC_cee62.dir/build
 make[1]: Entering directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_1d3c6.dir/feature_tests.cxx.o
-/bin/clang++-8    -std=c++11 -o CMakeFiles/cmTC_1d3c6.dir/feature_tests.cxx.o -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_1d3c6
-/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d3c6.dir/link.txt --verbose=1
-/bin/clang++-8       -rdynamic CMakeFiles/cmTC_1d3c6.dir/feature_tests.cxx.o  -o cmTC_1d3c6 
+Building CXX object CMakeFiles/cmTC_cee62.dir/feature_tests.cxx.o
+/bin/clang++-8    -std=c++11 -o CMakeFiles/cmTC_cee62.dir/feature_tests.cxx.o -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cee62
+/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cee62.dir/link.txt --verbose=1
+/bin/clang++-8       -rdynamic CMakeFiles/cmTC_cee62.dir/feature_tests.cxx.o  -o cmTC_cee62 
 make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
 
 
@@ -836,14 +836,14 @@ make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tra
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_107ab/fast 
-/usr/bin/make -f CMakeFiles/cmTC_107ab.dir/build.make CMakeFiles/cmTC_107ab.dir/build
+Run Build Command(s):/usr/bin/make cmTC_5a465/fast 
+/usr/bin/make -f CMakeFiles/cmTC_5a465.dir/build.make CMakeFiles/cmTC_5a465.dir/build
 make[1]: Entering directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_107ab.dir/feature_tests.cxx.o
-/bin/clang++-8    -std=c++98 -o CMakeFiles/cmTC_107ab.dir/feature_tests.cxx.o -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_107ab
-/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_107ab.dir/link.txt --verbose=1
-/bin/clang++-8       -rdynamic CMakeFiles/cmTC_107ab.dir/feature_tests.cxx.o  -o cmTC_107ab 
+Building CXX object CMakeFiles/cmTC_5a465.dir/feature_tests.cxx.o
+/bin/clang++-8    -std=c++98 -o CMakeFiles/cmTC_5a465.dir/feature_tests.cxx.o -c /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5a465
+/home/oleg/cmake-3.14.5-Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a465.dir/link.txt --verbose=1
+/bin/clang++-8       -rdynamic CMakeFiles/cmTC_5a465.dir/feature_tests.cxx.o  -o cmTC_5a465 
 make[1]: Leaving directory '/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/build/CMakeFiles/CMakeTmp'
 
 

@@ -6,6 +6,46 @@
 
 #IncludeRegexTransform: 
 
+/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/FinalProject_Camera.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+iomanip
+-
+vector
+-
+cmath
+-
+limits
+-
+opencv2/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/features2d.hpp
+-
+opencv2/xfeatures2d.hpp
+-
+opencv2/xfeatures2d/nonfree.hpp
+-
+cassert
+-
+dataStructures.h
+/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/dataStructures.h
+matching2D.hpp
+/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/matching2D.hpp
+objectDetection2D.hpp
+/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/objectDetection2D.hpp
+lidarData.hpp
+/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/lidarData.hpp
+camFusion.hpp
+/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/camFusion.hpp
+
 /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/camFusion.hpp
 stdio.h
 -
@@ -16,24 +56,6 @@ opencv2/core.hpp
 dataStructures.h
 /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/dataStructures.h
 
-/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/camFusion_Student.cpp
-iostream
--
-algorithm
--
-numeric
--
-opencv2/highgui/highgui.hpp
--
-opencv2/imgproc/imgproc.hpp
--
-bits/stdc++.h
--
-camFusion.hpp
-/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/camFusion.hpp
-dataStructures.h
-/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/dataStructures.h
-
 /home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/dataStructures.h
 vector
 -
@@ -41,6 +63,54 @@ map
 -
 opencv2/core.hpp
 -
+
+/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/lidarData.hpp
+stdio.h
+-
+fstream
+-
+string
+-
+dataStructures.h
+/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/dataStructures.h
+
+/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/matching2D.hpp
+stdio.h
+-
+iostream
+-
+sstream
+-
+iomanip
+-
+vector
+-
+cmath
+-
+limits
+-
+opencv2/core.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+opencv2/imgproc/imgproc.hpp
+-
+opencv2/features2d.hpp
+-
+opencv2/xfeatures2d.hpp
+-
+opencv2/xfeatures2d/nonfree.hpp
+-
+dataStructures.h
+/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/dataStructures.h
+
+/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/objectDetection2D.hpp
+stdio.h
+-
+opencv2/core.hpp
+-
+dataStructures.h
+/home/oleg/Documents/SensorFusion/SFND_3D_Object_Tracking/src/dataStructures.h
 
 /usr/local/include/opencv4/opencv2/core.hpp
 opencv2/core/cvdef.h
@@ -183,6 +253,14 @@ opencv2/dnn.hpp
 /usr/local/include/opencv4/opencv2/dnn/dnn.hpp
 
 /usr/local/include/opencv4/opencv2/dnn/version.hpp
+
+/usr/local/include/opencv4/opencv2/features2d.hpp
+opencv2/opencv_modules.hpp
+/usr/local/include/opencv4/opencv2/opencv2/opencv_modules.hpp
+opencv2/core.hpp
+/usr/local/include/opencv4/opencv2/opencv2/core.hpp
+opencv2/flann/miniflann.hpp
+/usr/local/include/opencv4/opencv2/opencv2/flann/miniflann.hpp
 
 /usr/local/include/opencv4/opencv2/flann/config.h
 
@@ -492,14 +570,6 @@ mutex
 opencv2/dnn/dnn.hpp
 -
 
-/usr/local/include/opencv4/opencv2/opencv2/features2d.hpp
-opencv2/opencv_modules.hpp
-/usr/local/include/opencv4/opencv2/opencv2/opencv2/opencv_modules.hpp
-opencv2/core.hpp
-/usr/local/include/opencv4/opencv2/opencv2/opencv2/core.hpp
-opencv2/flann/miniflann.hpp
-/usr/local/include/opencv4/opencv2/opencv2/opencv2/flann/miniflann.hpp
-
 /usr/local/include/opencv4/opencv2/opencv2/flann.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/opencv2/core.hpp
@@ -507,6 +577,12 @@ opencv2/flann/miniflann.hpp
 /usr/local/include/opencv4/opencv2/opencv2/opencv2/flann/miniflann.hpp
 opencv2/flann/flann_base.hpp
 /usr/local/include/opencv4/opencv2/opencv2/opencv2/flann/flann_base.hpp
+
+/usr/local/include/opencv4/opencv2/opencv2/flann/miniflann.hpp
+opencv2/core.hpp
+/usr/local/include/opencv4/opencv2/opencv2/flann/opencv2/core.hpp
+opencv2/flann/defines.h
+/usr/local/include/opencv4/opencv2/opencv2/flann/opencv2/flann/defines.h
 
 /usr/local/include/opencv4/opencv2/opencv2/imgcodecs.hpp
 opencv2/core.hpp
@@ -876,12 +952,6 @@ stdio.h
 general.h
 /usr/local/include/opencv4/opencv2/opencv2/opencv2/flann/general.h
 
-/usr/local/include/opencv4/opencv2/opencv2/opencv2/flann/miniflann.hpp
-opencv2/core.hpp
-/usr/local/include/opencv4/opencv2/opencv2/opencv2/flann/opencv2/core.hpp
-opencv2/flann/defines.h
-/usr/local/include/opencv4/opencv2/opencv2/opencv2/flann/opencv2/flann/defines.h
-
 /usr/local/include/opencv4/opencv2/opencv2/opencv2/flann/nn_index.h
 general.h
 /usr/local/include/opencv4/opencv2/opencv2/opencv2/flann/general.h
@@ -1086,6 +1156,8 @@ opencv2/videostab/deblurring.hpp
 opencv2/videostab/wobble_suppression.hpp
 /usr/local/include/opencv4/opencv2/opencv2/opencv2/videostab/opencv2/videostab/wobble_suppression.hpp
 
+/usr/local/include/opencv4/opencv2/opencv2/opencv_modules.hpp
+
 /usr/local/include/opencv4/opencv2/opencv2/photo.hpp
 opencv2/core.hpp
 /usr/local/include/opencv4/opencv2/opencv2/opencv2/core.hpp
@@ -1153,8 +1225,6 @@ opencv2/viz/viz3d.hpp
 -
 opencv2/viz/vizcore.hpp
 -
-
-/usr/local/include/opencv4/opencv2/opencv_modules.hpp
 
 /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp
 opencv2/core.hpp
@@ -1313,4 +1383,14 @@ opencv2/viz/viz3d.hpp
 /usr/local/include/opencv4/opencv2/viz/widgets.hpp
 opencv2/viz/types.hpp
 -
+
+/usr/local/include/opencv4/opencv2/xfeatures2d.hpp
+opencv2/features2d.hpp
+/usr/local/include/opencv4/opencv2/opencv2/features2d.hpp
+opencv2/xfeatures2d/nonfree.hpp
+/usr/local/include/opencv4/opencv2/opencv2/xfeatures2d/nonfree.hpp
+
+/usr/local/include/opencv4/opencv2/xfeatures2d/nonfree.hpp
+opencv2/features2d.hpp
+/usr/local/include/opencv4/opencv2/xfeatures2d/opencv2/features2d.hpp
 
