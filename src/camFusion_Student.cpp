@@ -214,8 +214,7 @@ void computeTTCCamera(std::vector<cv::KeyPoint> &kptsPrev, std::vector<cv::KeyPo
     std::sort(ratios.begin(),ratios.end());
     double medianRatio = ratios[ratios.size() / 2]; 
     TTC = -1.0 / ( (1 - medianRatio)*frameRate );
-    //std::cout << "TTC Camera " << TTC << " seconds, median " << medianRatio <<" " << frameRate << std::endl;
-    std::cout << TTC << std::endl;
+    std::cout << "TTC Camera " << TTC << " seconds, median " << medianRatio <<" " << frameRate << std::endl;
 }
 
 LidarPoint getIndicativePoint(std::vector<LidarPoint>& points){

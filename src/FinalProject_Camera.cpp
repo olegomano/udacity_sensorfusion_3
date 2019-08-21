@@ -258,7 +258,7 @@ int main(int argc, const char *argv[])
                 {
                     ++ttcComputes;
                   
-                    //std::cout << "Computing TTC between " << prevBB->roi << " " << prevBB->lidarPoints.size() << " and " << currBB->roi << " " << currBB->lidarPoints.size() << std::endl;
+                    std::cout << "Computing TTC between " << prevBB->roi << " " << prevBB->lidarPoints.size() << " and " << currBB->roi << " " << currBB->lidarPoints.size() << std::endl;
                   
                     //// STUDENT ASSIGNMENT
                     //// TASK FP.2 -> compute time-to-collision based on Lidar data (implement -> computeTTCLidar)
@@ -274,7 +274,7 @@ int main(int argc, const char *argv[])
                     computeTTCCamera((dataBuffer.end() - 2)->keypoints, (dataBuffer.end() - 1)->keypoints, currBB->kptMatches, sensorFrameRate, ttcCamera);
                     //// EOF STUDENT ASSIGNMENT
 
-                    assert(ttcComputes != 0);
+                    //assert(ttcComputes != 0);
                     bVis = false;
                     if (bVis)
                     {
